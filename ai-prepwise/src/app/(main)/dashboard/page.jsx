@@ -47,7 +47,7 @@ export default function Dashboard() {
       const { data } = await supabase.auth.getUser()
 
       if (!data?.user) {
-        console.log("hii")
+        
         router.push('/login') // ❌ not logged in
       }
     }
