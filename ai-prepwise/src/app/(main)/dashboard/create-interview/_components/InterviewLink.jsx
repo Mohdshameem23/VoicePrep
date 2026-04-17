@@ -15,7 +15,7 @@ import { toast } from "sonner";
 
 const InterviewLink = ({ interview_id, formData }) => {
   console.log(interview_id)
-  const url='https://voice-prep-lgid.vercel.app'+'/'+interview_id
+  const url='https://voice-prep-lgid.vercel.app'+'/interview/'+interview_id
   const GetInterviewUrl = () => {
     return url;
   };
