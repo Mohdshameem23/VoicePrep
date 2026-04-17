@@ -98,9 +98,10 @@ const Login = () => {
   const signInWithGoogle = async () => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
-      // options: {
-      //   redirectTo: 'http://localhost:3000/login', // ✅ important
-      // },
+        options: {
+    redirectTo: window.location.origin
+        }
+  
     })
 
     if (error) console.error('Error:', error.message)
