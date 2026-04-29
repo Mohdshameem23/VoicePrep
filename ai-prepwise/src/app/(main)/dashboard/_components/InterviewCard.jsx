@@ -22,7 +22,7 @@ const onSend = () => {
 
 
   return (
-    <div className="p-5 bg-white rounded-xl border shadow-sm flex flex-col min-h-[200px]">
+    <div className="p-4 sm:p-5 bg-white rounded-xl border shadow-sm flex flex-col min-h-[200px] mb-4">
       {/* Date Section */}
       <div className="flex items-center gap-3">
         <div className="h-[40px] w-[40px] bg-primary rounded-full flex items-center justify-center text-white text-xs font-bold">

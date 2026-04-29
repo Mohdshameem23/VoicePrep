@@ -53,6 +53,11 @@ const InterviewLink = ({ interview_id, formData }) => {
           <Button onClick={onCopyLink}>
             <Copy /> Copy Link
           </Button>
+          <Link href={GetInterviewUrl()} target="_blank" className="w-full sm:w-auto">
+    <Button type="button" className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white">
+      Start Interview
+    </Button>
+  </Link>
         </div>
 
         <hr className="my-7" />

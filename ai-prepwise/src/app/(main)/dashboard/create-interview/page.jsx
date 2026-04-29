@@ -35,7 +35,7 @@ console.log(formData);
       setStep(step + 1);
     }
   return (
-    <div className=' mt-10 px-10 md:px-24 lg:px-44 xl:56 '>
+    <div className='mt-6 px-2 sm:px-6 md:px-16 lg:px-32 xl:px-56 w-full max-w-4xl mx-auto'>
      <div className=' flex gap-5 items-center mb-5 cursor-pointer'>
         <ArrowLeft onClick={()=>router.back()} className=' cursor-pointer'/>
         <h2 className=' font-bold text-2xl'>Create New Interview</h2>
